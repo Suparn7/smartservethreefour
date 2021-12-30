@@ -10,7 +10,7 @@ function validate(){
         alert("Password should not have any special character other than @ and must contain an uppercase letter and a number");
     }else{
         alert("Login Success")
-        window.location.href = "www.google.com"
+        window.location.href = "dashboard.html"
     }
 
 }
@@ -47,3 +47,8 @@ function validatePassword(p) {
     }
     return true;
   }
+
+  function resetPass(){
+    window.location.href = "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjRFKnVwsClGjfXXxnZcnQMFbpXVQMpLxtmFCFscLHQPwvMmvGJwMJgpqrPZDsfjFhMSGd"
+  }
+
